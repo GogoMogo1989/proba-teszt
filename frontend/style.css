@@ -46,6 +46,7 @@
       position: fixed;
       display: flex;
       justify-content: space-between;
+      align-items: center;
       background-color: #ffeedf;
       color:#145434;
       border-bottom: 1px solid #145434;
