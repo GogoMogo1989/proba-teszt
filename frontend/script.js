@@ -4,12 +4,16 @@ const header =`
         <button class="material-icons">menu</button>
     </div>
 `
+
+let count=1
 function cardComponent(title, sub, text){
     return`
         <div name="card">
+            <h5>${count++}</h5>
             <h1>${title}</h1>
             <h2>${sub}</h2>
-            <h3>${text}</h3>
+            <h4>${text}</h4>
+            <button>details</button>
         </div>
     `
 }
@@ -31,7 +35,6 @@ window.addEventListener("load", () => {
     for(const b of cardData){
         content += cardComponent(b.title, b.sub, b.text)
     }
-
 
     const root = document.getElementById("root")
     root.insertAdjacentHTML("afterbegin", header)
