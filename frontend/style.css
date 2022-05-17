@@ -70,6 +70,7 @@
     display:grid;
     grid-template-columns: auto auto;
     margin-top: 120px;
+    margin-bottom: 60px;
   }
 
   h5{
