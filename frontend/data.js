@@ -55,4 +55,3 @@ const beers = {
 		},
 	]
 }
-console.log(beers);
