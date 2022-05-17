@@ -15,7 +15,7 @@ function cardComponent(title, sub, text){
             <h2>${sub}</h2>
             <h4>${text}</h4>
             <button>
-                details
+                <p>details</p>
                 <span class="material-symbols-outlined">
                 arrow_forward
                 </span>
