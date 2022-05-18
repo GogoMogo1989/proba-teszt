@@ -49,5 +49,6 @@ window.addEventListener("load", () => {
     const root = document.getElementById("root")
     root.insertAdjacentHTML("afterbegin", header)
     root.insertAdjacentHTML("beforeend", main)
+
 })
 
